@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+# ignore all bin directories
+# matches "bin" in any subfolder
+bin/
+gen/
+obj/
+
+=======
 # built application files
 *.apk
 *.ap_
@@ -27,3 +35,4 @@ proguard/
 *.ipr
 *.iws
 .idea/
+>>>>>>> refs/remotes/GitHub/master
