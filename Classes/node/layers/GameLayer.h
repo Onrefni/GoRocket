@@ -12,7 +12,8 @@
 #include "../../GameConfig.h"
 //#include "SimpleAudioEngine.h"
 #include "contract/LayerContract.h"
-#include "../sprite/contract/GameSprite.h"
+#include "manager/GameManager.h"
+#include "../../RecordsManager.h"
 
 USING_NS_CC;
 //using namespace CocosDenshion;
@@ -24,12 +25,20 @@ public:
     static cocos2d::CCScene* scene();
     static GameLayer * create();
     void initLayer();
+    //Actions
+	void ccTouchesBegan(CCSet* pTouches, CCEvent* event);
+	void ccTouchesEnded(CCSet* pTouches, CCEvent* event);
+	void update(float dt);
+	void statusChange(int newStatus);
     //Exit
     void keyBackClicked();
 
 private:
     CCSprite * _bg;
-    GameSprite * _rocket;
+    GameManager * _gameManager;
+    CCLabelTTF * _labelInfo;
+    CCLabelTTF * _labelAltitude;
+    CCLabelTTF * _labelRecord;
 };
 
 #endif /* GAMELAYER_H_ */
