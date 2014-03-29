@@ -105,6 +105,11 @@
 			<locationURI>$%7BCOCOS2DX%7D/projects/GoRocket/Classes</locationURI>
 		</link>
 		<link>
+			<name>CocosDenshion</name>
+			<type>2</type>
+			<location>/usr/Java/cocos2d/cocos2d-x-2.2.3/CocosDenshion</location>
+		</link>
+		<link>
 			<name>Resources</name>
 			<type>2</type>
 			<locationURI>$%7BCOCOS2DX%7D/projects/GoRocket/Resources</locationURI>
@@ -128,7 +133,7 @@
 	<variableList>
 		<variable>
 			<name>COCOS2DX</name>
-			<value>file:/Users/guilhermebraga/Desenvolvimento/cocos2d/cocos2d-x-2.2.3</value>
+			<value>file:/usr/Java/cocos2d/cocos2d-x-2.2.3</value>
 		</variable>
 	</variableList>
 </projectDescription>
