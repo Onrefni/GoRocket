@@ -22,3 +22,4 @@ This is a free game, you can get, modify e publish where you want. I appreciate 
 
 Perguntas/Questions:  
 brazilian-cocos2dx@googlegroups.com
+
